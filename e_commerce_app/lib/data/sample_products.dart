@@ -1,0 +1,68 @@
+import '../models/product.dart';
+
+final List<Product> sampleProducts = [
+  Product(
+    id: '1',
+    name: 'Premium Headphones',
+    price: 2999.99,
+    availableUnits: 15,
+    imageAsset: 'assets/p1.jfif',
+    description: 'High-quality wireless headphones with noise cancellation',
+  ),
+  Product(
+    id: '2',
+    name: 'Smart Watch',
+    price: 4599.99,
+    availableUnits: 8,
+    imageAsset: 'assets/p2.jfif',
+    description: 'Feature-rich smartwatch with fitness tracking',
+  ),
+  Product(
+    id: '3',
+    name: 'Laptop Stand',
+    price: 899.99,
+    availableUnits: 25,
+    imageAsset: 'assets/p3.jfif',
+    description: 'Ergonomic adjustable laptop stand',
+  ),
+  Product(
+    id: '4',
+    name: 'Wireless Mouse',
+    price: 1299.99,
+    availableUnits: 30,
+    imageAsset: 'assets/p4.jfif',
+    description: 'Ergonomic wireless mouse with precision tracking',
+  ),
+  Product(
+    id: '5',
+    name: 'Mechanical Keyboard',
+    price: 3499.99,
+    availableUnits: 12,
+    imageAsset: 'assets/p5.jfif',
+    description: 'RGB mechanical keyboard with custom switches',
+  ),
+  Product(
+    id: '6',
+    name: 'USB-C Hub',
+    price: 1899.99,
+    availableUnits: 20,
+    imageAsset: 'assets/p6.jfif',
+    description: 'Multi-port USB-C hub with fast charging',
+  ),
+  Product(
+    id: '7',
+    name: 'Webcam HD',
+    price: 2499.99,
+    availableUnits: 10,
+    imageAsset: 'assets/p7.jfif',
+    description: '1080p HD webcam with auto-focus',
+  ),
+  Product(
+    id: '8',
+    name: 'Phone Holder',
+    price: 599.99,
+    availableUnits: 35,
+    imageAsset: 'assets/p8.jfif',
+    description: 'Adjustable phone holder for desk or car',
+  ),
+];
